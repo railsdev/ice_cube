@@ -5,10 +5,14 @@ module IceCube
 
     extend Deprecated
 
-    DAYS = {
-      :sunday => 0, :monday => 1, :tuesday => 2, :wednesday => 3,
-      :thursday => 4, :friday => 5, :saturday => 6
-    }
+    # DAYS = {
+    #   :sunday => 0, :monday => 1, :tuesday => 2, :wednesday => 3,
+    #   :thursday => 4, :friday => 5, :saturday => 6
+    # }
+      DAYS = {
+        :sunday => 1, :monday => 2, :tuesday => 3, :wednesday => 4,
+        :thursday => 5, :friday => 6, :saturday => 7
+      }
 
     MONTHS = {
       :january => 1, :february => 2, :march => 3, :april => 4, :may => 5,
